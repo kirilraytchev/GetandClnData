@@ -3,7 +3,7 @@ GetandClnData
 
 Course project
 
-To script reads data from the following files:
+The script reads data from the following files:
 UCI HAR Dataset/test/y_test.txt
 UCI HAR Dataset/test/subject_test.txt
 UCI HAR Dataset/train/y_train.txt
