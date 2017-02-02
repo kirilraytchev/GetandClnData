@@ -1,7 +1,9 @@
-Getting and Cleaning Data Course Project
-=============
+#Getting and Cleaning Data Course Project
+***
 
-Course project
+###Motivation
+***
+The purpose of this course project is to demonstrate ability to collect, work with, and clean a data set
 
 The script reads data from the following files:
 UCI HAR Dataset/test/y_test.txt
