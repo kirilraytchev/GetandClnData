@@ -32,4 +32,4 @@ meanF<-dcast(meltF, Activity + Subject ~variable, mean)
 Final<-merge(activity_labels, meanF, by.x="V1", by.y="Activity")
 Final<-Final[,2:69]
 names(Final)[1] <- "Activity"
-write.table(Final, file="tidy_data_set.txt", sep="\t")
+write.table(Final, file="tidy_data_set.txt", sep="\t", row.names = FALSE)
